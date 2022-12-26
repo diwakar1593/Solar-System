@@ -147,23 +147,6 @@ body{
     animation: shadow 50s infinite linear;
 }
 
-.saturn{
-    position: absolute;
-    width: 1300px;
-    z-index: 7;
-    animation: orbitsaturn 90s infinite linear;
-    top: -84px;
-}
-.saturn .planet{
-    width: 100px;
-    height: 100px;
-    background-image: url(../images/saturn.png);
-    animation: anti-spin 90s infinite linear;
-}
-.saturn .shadow{
-    animation: shadow 90s infinite linear;
-}
-
 @keyframes spinsun{
     0%{
         transform: rotate(0);
